@@ -1,0 +1,35 @@
+<html>
+  <style>
+    .myButton{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: silver;
+        color: black;
+        padding: 30px 32px;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+    
+    }
+    h1 {
+      text-align: center;
+    }
+  </style>
+    <body>
+
+      <form action="https://barney.gonzaga.edu/~alewis8/Project/home.php" class ="myButton">
+        <input type="submit" value="HOME" />
+      </form>
+        <h1 style ="background-color:silver; font-size: 75px;"> Delete A Book</h1>
+<p>
+  <form action="confirm_book_remove.php" method="POST">
+    <label for="ID">Book ID.................: </label>
+    <input type="text" id="ID" name="ID"><br><br>
+    <label for="password">Librarian Password: </label>
+    <input type="text" id="password" name="password"><br><br>
+    <input type="submit" value="Remove">
+  </form> 
+</p>
+    </body>
+</html>
